@@ -2,4 +2,4 @@
 
 ## Table of Contents
 
-- [POO Uber example](POO/Uber)
+- [POO Uber example](POO)
