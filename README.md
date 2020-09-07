@@ -2,5 +2,4 @@
 
 ## Table of Contents
 
-- [About](#about)
-- [POO Uber example](POO/Uber/README.md)
+- [POO Uber example](POO/Uber)
