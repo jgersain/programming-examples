@@ -1,5 +1,3 @@
-import javax.sound.midi.Soundbank;
-
 class Car {
   Integer id;
   String licence;
