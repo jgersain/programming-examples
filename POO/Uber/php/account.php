@@ -3,5 +3,10 @@ class Account {
   private $name;
   private $document;
   private $email;
-  private $password; 
+  private $password;
+
+  public function __construct($name, $document) {
+    this->$name = $name;
+    this->$document = $document;
+  }
 }
