@@ -1,15 +1,19 @@
+<?php
+
 class Car {
-  private $id;
-  private $licence;
-  private $driver;
-  private $passenger;
+  public $id;
+  public $licence;
+  public $driver;
+  public $passenger;
 
   public function __construct($licence, $driver) {
-    $this->$licence = $licence;
-    $this->$driver = $driver;
+    $this->licence = $licence;
+    $this->driver = $driver;
   }
 
   public function printDataCar() {
-    echo 'Licence: '+ $licence + ' Driver: ' + $driver->$name; 
+    echo 'Licence: '.$this->licence.' Driver: '.$this->driver->name; 
   }
 }
+
+?>

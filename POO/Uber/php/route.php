@@ -1,5 +1,9 @@
+<?php
+
 class Route {
-  private $id;
-  private $start;
-  private $end;
+  public $id;
+  public $start;
+  public $end;
 }
+
+?>
