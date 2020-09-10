@@ -1,11 +1,9 @@
 class Main {
   public static void main(String[] args) {
-    Car car = new Car("XWLZ5", new Account("John Connor", "OOMG121"));
-    car.printDataCar();
-    Car car2 = new Car("ABCDE", new Account("John Cena", "UNAMMX"));
-    car2.printDataCar();
-
-    UberX uberX = new UberX("XWLZ6", new Account("John Deep", "CURP001"), "Chevrolet", "Spark");
+    System.out.println("Uber Objects");
+    
+    UberX uberX = new UberX("XWLZ5", new Account("John Connor", "OOMG121"), "Chevrolet", "Onix");
+    uberX.setPassenger(4);
     uberX.printDataCar();
   }
 }
