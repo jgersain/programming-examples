@@ -44,3 +44,11 @@ Las clases son los modelos sobre los cuales se crean los objetos
 - Geneeralmente tiene el mismo nombre que la clase
 
 - Son los parámetros mínimos que necesita el objeto para poder vivir
+
+### Encapsulamiento
+
+- Hacer que un dato no sea modificable o inalterable cuando se le asigne un modificador de acceso
+
+### Polimorfismo
+
+- Construit métodos con el mismo nombre pero con comportamiento diferente
